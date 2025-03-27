@@ -1,0 +1,59 @@
+/* App Styling */
+
+.container {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: #d6eef0;
+  border-radius: 8px;
+}
+
+.title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Product List Component */
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* Product Item Component */
+
+.product-item {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 10px; 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.product-item:hover {
+  transform: scale(1.05);
+}
+
+.product-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.product-image {
+  max-width: 150px;
+}
+
+.product-price {
+  color: green;
+  font-size: 1rem;
+}
+
+.product-description {
+  font-size: 0.9rem;
+  color: #555;
+}
